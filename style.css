@@ -1,0 +1,88 @@
+*{
+    margin: o;padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+nav ul
+{
+display: flex;
+justify-content: space-between;
+width: 60%;
+list-style-type: none;
+}
+.first-sec h1
+{
+    font-size: 70px;
+    margin-left: 60px;
+}
+.subdiv-1, .subdiv-2, .subdiv-3, .subdiv-4
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.subdiv-1 ul,.subdiv-2 ul,.subdiv-3 ul,.subdiv-4 ul
+{
+    list-style-type: none;
+}
+.subdiv-2 img, .subdiv-3 img, .subdiv-4 img
+{
+height: 60px;
+width: 60px;
+}
+.main-div
+{
+    display: flex;
+}
+.main-menu
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+    width: 90 %;
+}
+.menu-item
+{
+    position: center;
+}
+.submenu
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: center;
+    display: center;
+
+}
+.seleect{
+    position:center;
+    width: 60;
+    height: 40;
+}
+.finish ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20 Px;
+    padding: 0;
+    width: 60%;
+    list-style-type: none;
+}
+.finish ul:hover
+{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.finish
+{
+display: flex;    
+align-items: center;
+justify-content: space-between;
+}
